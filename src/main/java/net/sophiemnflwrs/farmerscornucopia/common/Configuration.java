@@ -47,39 +47,39 @@ public class Configuration {
         // shrubs
         COMMON_BUILDER.comment("Lemon Shrub generation").push("lemon_shrub");
         CHANCE_LEMON_SHRUB = COMMON_BUILDER.comment("Chance of generating clusters. Smaller value = more frequent.")
-                .defineInRange("chance", 20, 0, Integer.MAX_VALUE);
+                .defineInRange("chance", 50, 0, Integer.MAX_VALUE);
         COMMON_BUILDER.pop();
 
         // bushes
         COMMON_BUILDER.comment("Blueberry Bush generation").push("blueberry_bush");
         CHANCE_BLUEBERRY_BUSH = COMMON_BUILDER.comment("Chance of generating clusters. Smaller value = more frequent.")
-                .defineInRange("chance", 20, 0, Integer.MAX_VALUE);
+                .defineInRange("chance", 50, 0, Integer.MAX_VALUE);
         COMMON_BUILDER.pop();
 
         // tall wild crops
         COMMON_BUILDER.comment("Wild Cassava generation").push("wild_cassava");
         CHANCE_WILD_CASSAVA = COMMON_BUILDER.comment("Chance of generating clusters. Smaller value = more frequent.")
-                .defineInRange("chance", 30, 0, Integer.MAX_VALUE);
+                .defineInRange("chance", 60, 0, Integer.MAX_VALUE);
         COMMON_BUILDER.pop();
 
         // wild crops
         COMMON_BUILDER.comment("Wild Chili Pepper generation").push("wild_chili_pepper");
         CHANCE_WILD_CHILI_PEPPER = COMMON_BUILDER.comment("Chance of generating clusters. Smaller value = more frequent.")
-                .defineInRange("chance", 30, 0, Integer.MAX_VALUE);
+                .defineInRange("chance", 60, 0, Integer.MAX_VALUE);
         COMMON_BUILDER.pop();
         COMMON_BUILDER.comment("Wild Garlic generation").push("wild_garlic");
         CHANCE_WILD_GARLIC = COMMON_BUILDER.comment("Chance of generating clusters. Smaller value = more frequent.")
-                .defineInRange("chance", 30, 0, Integer.MAX_VALUE);
+                .defineInRange("chance", 60, 0, Integer.MAX_VALUE);
         COMMON_BUILDER.pop();
         COMMON_BUILDER.comment("Wild Ginger generation").push("wild_ginger");
         CHANCE_WILD_GINGER = COMMON_BUILDER.comment("Chance of generating clusters. Smaller value = more frequent.")
-                .defineInRange("chance", 30, 0, Integer.MAX_VALUE);
+                .defineInRange("chance", 60, 0, Integer.MAX_VALUE);
         COMMON_BUILDER.pop();
 
         // flowers
         COMMON_BUILDER.comment("Violet generation").push("violet");
         CHANCE_VIOLET = COMMON_BUILDER.comment("Chance of generating clusters. Smaller value = more frequent.")
-                .defineInRange("chance", 30, 0, Integer.MAX_VALUE);
+                .defineInRange("chance", 60, 0, Integer.MAX_VALUE);
         COMMON_BUILDER.pop();
 
         COMMON_CONFIG = COMMON_BUILDER.build();
