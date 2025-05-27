@@ -101,6 +101,7 @@ public class BuddingCrop extends BushBlock {
     public boolean canGrowPastMaxAge() {
         return false;
     }
+
     public void growPastMaxAge(BlockState state, ServerLevel level, BlockPos pos, RandomSource random) {
     }
 
@@ -157,6 +158,7 @@ public class BuddingCrop extends BushBlock {
     protected ItemLike getBaseSeedId() {
         return FCItems.CHILI_PEPPER_SEEDS.get();
     }
+
     @Override
     public ItemStack getCloneItemStack(BlockGetter level, BlockPos pos, BlockState state) {
         return new ItemStack(getBaseSeedId());

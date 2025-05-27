@@ -53,6 +53,7 @@ public class BuddingChiliPepperCrop extends BuddingCrop implements BonemealableB
     public boolean canGrowPastMaxAge() {
         return true;
     }
+
     @Override
     public void growPastMaxAge(BlockState state, ServerLevel level, BlockPos pos, RandomSource random) {
         level.setBlockAndUpdate(pos, FCBlocks.CHILI_PEPPER_CROP.get().defaultBlockState());
@@ -69,7 +70,7 @@ public class BuddingChiliPepperCrop extends BuddingCrop implements BonemealableB
     }
 
     protected int getBonemealAgeIncrease(Level level) {
-        return Mth.nextInt(level.random, 1, 4);
+        return Mth.nextInt(level.random, 1, 2);
     }
 
     @Override

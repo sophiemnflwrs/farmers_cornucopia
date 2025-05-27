@@ -104,14 +104,6 @@ public class ChiliPepperCrop extends CropBlock {
     }
 
     @Override
-    public BlockState updateShape(BlockState state, Direction facing, BlockState facingState, LevelAccessor level, BlockPos currentPos, BlockPos facingPos) {
-        if (!state.canSurvive(level, currentPos)) {
-            level.scheduleTick(currentPos, this, 1);
-        }
-        return state;
-    }
-
-    @Override
     protected int getBonemealAgeIncrease(Level level) {
         return super.getBonemealAgeIncrease(level) / 2;
     }
@@ -123,5 +115,15 @@ public class ChiliPepperCrop extends CropBlock {
         if (newAge > maxAge) {
             newAge = maxAge;
         }
+        level.setBlock(pos, this.getStateForAge(newAge), 2);
     }
+
+    @Override
+    public BlockState updateShape(BlockState state, Direction facing, BlockState facingState, LevelAccessor level, BlockPos currentPos, BlockPos facingPos) {
+        if (!state.canSurvive(level, currentPos)) {
+            level.scheduleTick(currentPos, this, 1);
+        }
+        return state;
+    }
+
 }
