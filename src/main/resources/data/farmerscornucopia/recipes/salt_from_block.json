@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "farmerscornucopia:salt_block"
+    }
+  ],
+  "result": {
+    "item": "farmerscornucopia:salt",
+    "count": 9
+  }
+}

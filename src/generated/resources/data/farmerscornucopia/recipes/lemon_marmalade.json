@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "g": {
+      "item": "minecraft:glass_bottle"
+    },
+    "l": {
+      "item": "farmerscornucopia:lemon"
+    },
+    "s": {
+      "item": "minecraft:sugar"
+    },
+    "w": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "pattern": [
+    " g ",
+    "swl",
+    "lll"
+  ],
+  "result": {
+    "item": "farmerscornucopia:lemon_marmalade"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,11 @@
+{
+  "type": "farmerscornucopia:add_features_by_filter",
+  "allowed_biomes": "#minecraft:is_overworld",
+  "denied_biomes": ["minecraft:lush_caves", "minecraft:mushroom_fields"],
+  "min_temperature": 0.6,
+  "max_temperature": 2.1,
+  "min_humidity": 0.4,
+  "max_humidity": 1.0,
+  "features": "farmerscornucopia:patch_wild_cassava",
+  "step": "vegetal_decoration"
+}

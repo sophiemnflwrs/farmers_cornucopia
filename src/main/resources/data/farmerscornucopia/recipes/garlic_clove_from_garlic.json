@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "farmerscornucopia:garlic"
+    }
+  ],
+  "result": {
+    "item": "farmerscornucopia:garlic_clove",
+    "count": 6
+  }
+}

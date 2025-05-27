@@ -1,0 +1,23 @@
+{
+  "feature": "farmerscornucopia:patch_lemon_shrub",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 20
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "MOTION_BLOCKING"
+    },
+    {
+      "type": "minecraft:biome"
+    },
+    {
+      "type": "farmerscornucopia:biome_tag",
+      "tag": "minecraft:is_overworld"
+    }
+  ]
+}

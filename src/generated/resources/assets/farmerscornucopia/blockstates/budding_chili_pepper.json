@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "farmerscornucopia:block/budding_chili_pepper_stage0"
+    },
+    "age=1": {
+      "model": "farmerscornucopia:block/budding_chili_pepper_stage1"
+    },
+    "age=2": {
+      "model": "farmerscornucopia:block/budding_chili_pepper_stage2"
+    },
+    "age=3": {
+      "model": "farmerscornucopia:block/budding_chili_pepper_stage3"
+    },
+    "age=4": {
+      "model": "farmerscornucopia:block/budding_chili_pepper_stage3"
+    }
+  }
+}

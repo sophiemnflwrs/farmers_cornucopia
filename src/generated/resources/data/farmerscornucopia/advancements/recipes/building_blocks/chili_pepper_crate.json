@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_chili_pepper": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "farmerscornucopia:chili_pepper"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "farmerscornucopia:chili_pepper_crate"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_chili_pepper",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "farmerscornucopia:chili_pepper_crate"
+    ]
+  },
+  "sends_telemetry_event": false
+}

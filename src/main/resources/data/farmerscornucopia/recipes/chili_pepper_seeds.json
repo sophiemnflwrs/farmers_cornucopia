@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "farmerscornucopia:chili_pepper"
+    }
+  ],
+  "result": {
+    "item": "farmerscornucopia:chili_pepper_seeds",
+    "count": 6
+  }
+}

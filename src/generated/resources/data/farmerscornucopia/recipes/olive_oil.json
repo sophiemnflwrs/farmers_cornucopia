@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "farmerscornucopia:olive"
+    },
+    {
+      "item": "farmerscornucopia:olive"
+    },
+    {
+      "item": "farmerscornucopia:olive"
+    },
+    {
+      "item": "farmerscornucopia:olive"
+    },
+    {
+      "item": "minecraft:glass_bottle"
+    }
+  ],
+  "result": {
+    "item": "farmerscornucopia:olive_oil"
+  }
+}

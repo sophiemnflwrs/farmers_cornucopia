@@ -1,0 +1,9 @@
+{
+  "parent": "farmerscornucopia:block/lemon_shrub_upper",
+  "textures": {
+    "particle": "farmerscornucopia:block/lemon_shrub_upper_stage2",
+    "plant": "farmerscornucopia:block/lemon_shrub_upper_stage2",
+    "side": "farmerscornucopia:block/lemon_shrub_side_stage2",
+    "top": "farmerscornucopia:block/lemon_shrub_top_stage2"
+  }
+}

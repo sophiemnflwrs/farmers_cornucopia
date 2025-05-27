@@ -1,0 +1,26 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "cookingtime": 200,
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "tag": "forge:crops/garlic"
+    },
+    {
+      "tag": "forge:dairy/cream"
+    },
+    {
+      "tag": "forge:raw_fishes/salmon"
+    },
+    {
+      "tag": "forge:pasta"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "item": "farmerscornucopia:garlic_salmon_pasta"
+  }
+}

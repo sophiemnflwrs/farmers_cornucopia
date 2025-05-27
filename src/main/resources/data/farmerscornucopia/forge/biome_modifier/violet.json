@@ -1,0 +1,11 @@
+{
+  "type": "farmerscornucopia:add_features_by_filter",
+  "allowed_biomes": "#minecraft:is_overworld",
+  "denied_biomes": ["minecraft:lush_caves", "minecraft:mushroom_fields", "minecraft:swamp"],
+  "min_temperature": 0.2,
+  "max_temperature": 0.9,
+  "min_humidity": 0.4,
+  "max_humidity": 1.0,
+  "features": "farmerscornucopia:patch_violet",
+  "step": "vegetal_decoration"
+}

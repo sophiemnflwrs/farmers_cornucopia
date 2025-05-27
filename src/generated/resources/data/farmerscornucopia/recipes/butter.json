@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "farmerscornucopia:cream"
+    },
+    {
+      "item": "farmerscornucopia:cream"
+    },
+    {
+      "item": "farmerscornucopia:cream"
+    },
+    {
+      "item": "farmerscornucopia:cream"
+    },
+    {
+      "item": "farmerscornucopia:salt"
+    }
+  ],
+  "result": {
+    "item": "farmerscornucopia:butter"
+  }
+}

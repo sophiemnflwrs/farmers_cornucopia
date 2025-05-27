@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "b": {
+      "item": "farmerscornucopia:blueberry"
+    },
+    "g": {
+      "item": "minecraft:glass_bottle"
+    },
+    "l": {
+      "item": "farmerscornucopia:lemon"
+    },
+    "s": {
+      "item": "minecraft:sugar"
+    },
+    "w": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "pattern": [
+    " g ",
+    "swl",
+    "bbb"
+  ],
+  "result": {
+    "item": "farmerscornucopia:blueberry_jam"
+  },
+  "show_notification": true
+}

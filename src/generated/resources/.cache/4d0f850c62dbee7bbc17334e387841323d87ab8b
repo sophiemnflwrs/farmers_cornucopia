@@ -1,0 +1,15 @@
+// 1.20.1	2025-05-23T15:32:59.8404853	Tags for minecraft:block mod id farmerscornucopia
+acc0fef35d0331fdc2c81946a626032679a645e7 data/farmerscornucopia/tags/blocks/fruiting_bush.json
+3ac0fcf1abe696c996ce5790ad062dfa2242539f data/farmerscornucopia/tags/blocks/fruiting_leaves.json
+a5b13fe29001f93dc6c8c12ad72ab692ed0cdfa1 data/farmerscornucopia/tags/blocks/fruiting_shrub.json
+db720508ab03a66dfb879e4f25aaaed06f7095b4 data/farmerscornucopia/tags/blocks/wild_crops.json
+fbf916738378a32833d8d92804cccafaaf1ae2b2 data/minecraft/tags/blocks/crops.json
+ecb7263cf7a3f57fecf77e162992244a6dcd022b data/minecraft/tags/blocks/flowers.json
+9a9117d19192f151b401bfa3b9124dea345e89f7 data/minecraft/tags/blocks/leaves.json
+9a93498bf6f2164133605f5a500e496436c20199 data/minecraft/tags/blocks/logs.json
+0478e291fb3551c60418818b85f5d569b09c9681 data/minecraft/tags/blocks/mineable/axe.json
+241b80e058d72fc9d0ac9bc9c7206fb4a776faae data/minecraft/tags/blocks/mineable/pickaxe.json
+d753f1ea8f7c9c51af5a3532998c7566fc9758d4 data/minecraft/tags/blocks/planks.json
+401e13af8f260ccea534088ece7eeb8b45ff9a55 data/minecraft/tags/blocks/saplings.json
+d92c40ce2d49ab0388f05a9d51d98d17c0ed7995 data/minecraft/tags/blocks/small_flowers.json
+259bc29f6d7ce5b1a28d0b21c815cb7080d68ce0 data/minecraft/tags/blocks/tall_flowers.json

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "farmerscornucopia:lemon"
+    }
+  ],
+  "result": {
+    "item": "farmerscornucopia:lemon_seeds",
+    "count": 5
+  }
+}

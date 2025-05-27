@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:bread"
+    },
+    {
+      "item": "farmerscornucopia:garlic"
+    },
+    {
+      "item": "farmerscornucopia:butter"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "item": "farmerscornucopia:garlic_bread"
+  }
+}

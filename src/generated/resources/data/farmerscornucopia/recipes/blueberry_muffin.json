@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "1": {
+      "item": "farmerscornucopia:butter"
+    },
+    "b": {
+      "item": "farmerscornucopia:blueberry"
+    },
+    "e": {
+      "item": "minecraft:egg"
+    },
+    "s": {
+      "item": "minecraft:sugar"
+    },
+    "w": {
+      "item": "minecraft:wheat"
+    }
+  },
+  "pattern": [
+    "b1b",
+    "esw"
+  ],
+  "result": {
+    "item": "farmerscornucopia:blueberry_muffin"
+  },
+  "show_notification": true
+}

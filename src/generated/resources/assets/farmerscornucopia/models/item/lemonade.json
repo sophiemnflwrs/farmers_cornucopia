@@ -1,0 +1,6 @@
+{
+  "parent": "farmerscornucopia:item/mug",
+  "textures": {
+    "layer0": "farmerscornucopia:item/lemonade"
+  }
+}

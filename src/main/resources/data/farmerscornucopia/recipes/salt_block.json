@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "farmerscornucopia:salt"
+    }
+  },
+  "result": {
+    "item": "farmerscornucopia:salt_block"
+  }
+}

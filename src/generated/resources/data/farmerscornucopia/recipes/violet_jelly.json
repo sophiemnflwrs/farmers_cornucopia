@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "g": {
+      "item": "minecraft:glass_bottle"
+    },
+    "l": {
+      "item": "farmerscornucopia:lemon"
+    },
+    "s": {
+      "item": "minecraft:sugar"
+    },
+    "v": {
+      "item": "farmerscornucopia:violet"
+    },
+    "w": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "pattern": [
+    " g ",
+    "swl",
+    "vvv"
+  ],
+  "result": {
+    "item": "farmerscornucopia:violet_jelly"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,29 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "cookingtime": 200,
+  "experience": 0.35,
+  "ingredients": [
+    {
+      "item": "minecraft:potato"
+    },
+    {
+      "tag": "forge:crops/garlic"
+    },
+    {
+      "tag": "forge:dairy/cream"
+    },
+    {
+      "tag": "forge:dairy/butter"
+    },
+    {
+      "tag": "forge:foodstuffs/salt"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "item": "farmerscornucopia:mashed_potatoes"
+  }
+}

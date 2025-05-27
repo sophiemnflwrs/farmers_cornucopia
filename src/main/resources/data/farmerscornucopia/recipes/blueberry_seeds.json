@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "farmerscornucopia:blueberry"
+    }
+  ],
+  "result": {
+    "item": "farmerscornucopia:blueberry_seeds",
+    "count": 4
+  }
+}

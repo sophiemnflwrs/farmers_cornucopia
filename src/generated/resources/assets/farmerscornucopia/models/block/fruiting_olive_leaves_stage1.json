@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "farmerscornucopia:block/fruiting_olive_leaves_stage1"
+  }
+}

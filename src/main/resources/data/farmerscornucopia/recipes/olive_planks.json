@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "ingredients": [
+    {
+      "tag": "farmerscornucopia:olive_log"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "farmerscornucopia:olive_planks"
+  }
+}

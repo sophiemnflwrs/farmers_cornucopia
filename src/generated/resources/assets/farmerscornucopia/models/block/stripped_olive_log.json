@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "farmerscornucopia:block/stripped_olive_log_top",
+    "side": "farmerscornucopia:block/stripped_olive_log"
+  }
+}

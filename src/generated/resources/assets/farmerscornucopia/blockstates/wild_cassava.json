@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=lower": {
+      "model": "farmerscornucopia:block/wild_cassava_lower"
+    },
+    "half=upper": {
+      "model": "farmerscornucopia:block/wild_cassava_upper"
+    }
+  }
+}

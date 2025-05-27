@@ -1,0 +1,86 @@
+{
+  "itemGroup.farmerscornucopiatab": "Farmer's Cornucopia",
+
+  "block.farmerscornucopia.blueberry_crate": "Blueberry Crate",
+  "block.farmerscornucopia.chili_pepper_crate": "Chili Pepper Crate",
+  "block.farmerscornucopia.garlic_crate": "Garlic Crate",
+  "block.farmerscornucopia.ginger_crate": "Ginger Crate",
+  "block.farmerscornucopia.lemon_crate": "Lemon Crate",
+  "block.farmerscornucopia.olive_crate": "Olive Crate",
+
+  "block.farmerscornucopia.salt_ore": "Salt Ore",
+  "block.farmerscornucopia.deepslate_salt_ore": "Deepslate Salt Ore",
+  "block.farmerscornucopia.salt_block": "Block of Salt",
+  "item.farmerscornucopia.salt": "Salt",
+
+  "block.farmerscornucopia.olive_log": "Olive Log",
+  "block.farmerscornucopia.olive_wood": "Olive Wood",
+  "block.farmerscornucopia.stripped_olive_log": "Stripped Olive Log",
+  "block.farmerscornucopia.stripped_olive_wood": "Stripped Olive Wood",
+  "block.farmerscornucopia.olive_leaves": "Olive Leaves",
+  "block.farmerscornucopia.fruiting_olive_leaves": "Fruiting Olive Leaves",
+  "block.farmerscornucopia.olive_sapling": "Olive Sapling",
+  "block.farmerscornucopia.olive_planks": "Olive Planks",
+
+  "block.farmerscornucopia.lemon_seedling": "Lemon Seedling",
+  "block.farmerscornucopia.lemon_shrub": "Lemon Shrub",
+
+  "block.farmerscornucopia.blueberry_bush": "Blueberry Bush",
+
+  "block.farmerscornucopia.wild_cassava": "Wild Cassava",
+
+  "block.farmerscornucopia.wild_chili_pepper": "Wild Chili Pepper",
+  "block.farmerscornucopia.potted_wild_chili_pepper": "Potted Wild Chili Pepper",
+  "block.farmerscornucopia.wild_garlic": "Wild Garlic",
+  "block.farmerscornucopia.potted_wild_garlic": "Potted Wild Garlic",
+  "block.farmerscornucopia.wild_ginger": "Wild Ginger",
+  "block.farmerscornucopia.potted_wild_ginger": "Potted Wild Ginger",
+
+  "block.farmerscornucopia.ginger_lily": "Ginger Lily",
+  "block.farmerscornucopia.potted_ginger_lily": "Potted Ginger Lily",
+  "block.farmerscornucopia.violet": "Violet",
+  "block.farmerscornucopia.potted_violet": "Potted Violet",
+
+  "item.farmerscornucopia.blueberry_seeds": "Blueberry Seeds",
+  "item.farmerscornucopia.chili_pepper_seeds": "Chili Pepper Seeds",
+  "item.farmerscornucopia.garlic_clove": "Garlic Clove",
+  "item.farmerscornucopia.ginger_seeds": "Ginger Seeds",
+  "item.farmerscornucopia.lemon_seeds": "Lemon Seeds",
+
+  "block.farmerscornucopia.budding_chili_pepper": "Budding Chili Pepper Crop",
+  "block.farmerscornucopia.chili_pepper_crop": "Chili Pepper Crop",
+  "block.farmerscornucopia.garlic_crop": "Garlic Crop",
+  "block.farmerscornucopia.ginger_crop": "Ginger Crop",
+
+  "item.farmerscornucopia.cassava": "Cassava",
+  "item.farmerscornucopia.chili_pepper": "Chili Pepper",
+  "item.farmerscornucopia.garlic": "Garlic",
+  "item.farmerscornucopia.ginger": "Ginger",
+
+  "item.farmerscornucopia.blueberry": "Blueberry",
+  "item.farmerscornucopia.lemon": "Lemon",
+  "item.farmerscornucopia.olive": "Olive",
+
+  "item.farmerscornucopia.cream": "Cream",
+  "item.farmerscornucopia.butter": "Butter",
+  "item.farmerscornucopia.olive_oil": "Olive Oil",
+  "item.farmerscornucopia.aioli": "Aioli",
+
+  "item.farmerscornucopia.blueberry_jam": "Blueberry Jam",
+  "item.farmerscornucopia.lemon_marmalade": "Lemon Marmalade",
+  "item.farmerscornucopia.violet_jelly": "Violet Jelly",
+
+  "item.farmerscornucopia.lemonade": "Lemonade",
+
+  "item.farmerscornucopia.garlic_bread": "Garlic Bread",
+  "item.farmerscornucopia.blueberry_muffin": "Blueberry Muffin",
+  "item.farmerscornucopia.mashed_potatoes": "Mashed Potatoes",
+  "item.farmerscornucopia.patatas_bravas": "Patatas Bravas",
+  "item.farmerscornucopia.garlic_salmon_pasta": "Garlic Salmon Pasta",
+
+  "effect.farmerscornucopia.corrosion": "Corrosion",
+
+  "effect.farmerscornucopia.corrosion.0.desc": "Provides the user with an acid shield, corroding away projectiles, but damaging attack weapons.",
+
+  "farmerscornucopia.tooltip.cream": "Clears one effect."
+}

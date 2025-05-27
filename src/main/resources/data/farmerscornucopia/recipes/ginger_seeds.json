@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "farmerscornucopia:ginger_lily"
+    }
+  ],
+  "result": {
+    "item": "farmerscornucopia:ginger_seeds",
+    "count": 3
+  }
+}

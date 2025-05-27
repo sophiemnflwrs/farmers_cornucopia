@@ -1,0 +1,26 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "cookingtime": 200,
+  "experience": 0.35,
+  "ingredients": [
+    {
+      "item": "minecraft:potato"
+    },
+    {
+      "tag": "forge:crops/tomato"
+    },
+    {
+      "tag": "forge:crops/chili_pepper"
+    },
+    {
+      "tag": "forge:foodstuffs/aioli"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "item": "farmerscornucopia:patatas_bravas"
+  }
+}
