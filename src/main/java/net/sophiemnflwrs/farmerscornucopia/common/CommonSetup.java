@@ -36,6 +36,7 @@ public class CommonSetup {
         ComposterBlock.COMPOSTABLES.put(FCItems.BLUEBERRY.get(), 0.65F);
         ComposterBlock.COMPOSTABLES.put(FCItems.OLIVE.get(), 0.65F);
         ComposterBlock.COMPOSTABLES.put(FCItems.GARLIC_BREAD.get(), 0.65F);
+        ComposterBlock.COMPOSTABLES.put(FCItems.CASSAVA.get(), 0.65F);
 
         // 85% chance
         ComposterBlock.COMPOSTABLES.put(FCItems.BLUEBERRY_MUFFIN.get(), 0.85F);

@@ -142,6 +142,8 @@ public class FCItems {
             () -> new ItemNameBlockItem(FCBlocks.GARLIC_CROP.get(), foodItem(FoodValues.GARLIC_CLOVE)));
     public static final RegistryObject<Item> GINGER_SEEDS = registerWithTab("ginger_seeds",
             () -> new ItemNameBlockItem(FCBlocks.GINGER_CROP.get(), basicItem()));
+    public static final RegistryObject<Item> VANILLA_POD = registerWithTab("vanilla_pod",
+            () -> new ItemNameBlockItem(FCBlocks.VANILLA_CROP.get(), basicItem()));
 
     // drinks
     public static final RegistryObject<Item> LEMONADE = registerWithTab("lemonade",

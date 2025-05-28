@@ -46,11 +46,15 @@
   "item.farmerscornucopia.garlic_clove": "Garlic Clove",
   "item.farmerscornucopia.ginger_seeds": "Ginger Seeds",
   "item.farmerscornucopia.lemon_seeds": "Lemon Seeds",
+  "item.farmerscornucopia.vanilla_pod": "Vanilla Pod",
 
   "block.farmerscornucopia.budding_chili_pepper": "Budding Chili Pepper Crop",
   "block.farmerscornucopia.chili_pepper_crop": "Chili Pepper Crop",
   "block.farmerscornucopia.garlic_crop": "Garlic Crop",
   "block.farmerscornucopia.ginger_crop": "Ginger Crop",
+  "block.farmerscornucopia.cassava_crop": "Cassava Crop",
+  "block.farmerscornucopia.budding_vanilla": "Budding Vanilla Crop",
+  "block.farmerscornucopia.vanilla_crop": "Vanilla Crop",
 
   "item.farmerscornucopia.cassava": "Cassava",
   "item.farmerscornucopia.chili_pepper": "Chili Pepper",

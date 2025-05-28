@@ -114,6 +114,12 @@ public class FCBlocks {
     public static final RegistryObject<Block> CASSAVA_CROP = BLOCKS.register("cassava_crop",
             () -> new CassavaCrop(Block.Properties.copy(Blocks.WHEAT)));
 
+    // vine crops
+    public static final RegistryObject<Block> BUDDING_VANILLA_CROP = BLOCKS.register("budding_vanilla",
+            () -> new BuddingVanillaCrop(Block.Properties.copy(Blocks.WHEAT)));
+    public static final RegistryObject<Block> VANILLA_CROP = BLOCKS.register("vanilla_crop",
+            () -> new VanillaCrop(Block.Properties.copy(Blocks.WHEAT)));
+
     // register
     public static void register(IEventBus eventBus) {
         BLOCKS.register(eventBus);

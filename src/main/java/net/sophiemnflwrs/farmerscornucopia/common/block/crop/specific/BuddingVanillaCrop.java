@@ -15,21 +15,19 @@ import net.sophiemnflwrs.farmerscornucopia.common.registry.FCBlocks;
 import net.sophiemnflwrs.farmerscornucopia.common.registry.FCItems;
 import vectorwing.farmersdelight.common.registry.ModBlocks;
 
-// credit to vectorwing for this code!
-
-public class BuddingChiliPepperCrop extends BuddingCrop implements BonemealableBlock {
-    public BuddingChiliPepperCrop(Properties properties) {
+public class BuddingVanillaCrop extends BuddingCrop implements BonemealableBlock {
+    public BuddingVanillaCrop(Properties properties) {
         super(properties);
     }
 
     @Override
     public BlockState getPlant(BlockGetter world, BlockPos pos) {
-        return FCBlocks.BUDDING_CHILI_PEPPER_CROP.get().defaultBlockState();
+        return FCBlocks.BUDDING_VANILLA_CROP.get().defaultBlockState();
     }
 
     @Override
     protected ItemLike getBaseSeedId() {
-        return FCItems.CHILI_PEPPER_SEEDS.get();
+        return FCItems.VANILLA_POD.get();
     }
 
     @Override
@@ -44,7 +42,7 @@ public class BuddingChiliPepperCrop extends BuddingCrop implements BonemealableB
     @Override
     public BlockState updateShape(BlockState state, Direction facing, BlockState facingState, LevelAccessor level, BlockPos currentPos, BlockPos facingPos) {
         if (state.getValue(BuddingCrop.AGE) == 4) {
-            level.setBlock(currentPos, FCBlocks.CHILI_PEPPER_CROP.get().defaultBlockState(), 3);
+            level.setBlock(currentPos, FCBlocks.VANILLA_CROP.get().defaultBlockState(), 3);
         }
         return super.updateShape(state, facing, facingState, level, currentPos, facingPos);
     }
@@ -56,7 +54,7 @@ public class BuddingChiliPepperCrop extends BuddingCrop implements BonemealableB
 
     @Override
     public void growPastMaxAge(BlockState state, ServerLevel level, BlockPos pos, RandomSource random) {
-        level.setBlockAndUpdate(pos, FCBlocks.CHILI_PEPPER_CROP.get().defaultBlockState());
+        level.setBlockAndUpdate(pos, FCBlocks.VANILLA_CROP.get().defaultBlockState());
     }
 
     @Override
@@ -81,7 +79,7 @@ public class BuddingChiliPepperCrop extends BuddingCrop implements BonemealableB
             level.setBlockAndUpdate(pos, state.setValue(AGE, ageGrowth));
         } else {
             int remainingGrowth = ageGrowth - maxAge - 1;
-            level.setBlockAndUpdate(pos, FCBlocks.CHILI_PEPPER_CROP.get().defaultBlockState().setValue(ChiliPepperCrop.AGE, remainingGrowth));
+            level.setBlockAndUpdate(pos, FCBlocks.VANILLA_CROP.get().defaultBlockState().setValue(VanillaCrop.AGE, remainingGrowth));
         }
     }
 }

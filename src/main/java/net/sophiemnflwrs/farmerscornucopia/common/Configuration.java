@@ -9,6 +9,11 @@ public class Configuration {
     public static ForgeConfigSpec COMMON_CONFIG;
     public static ForgeConfigSpec CLIENT_CONFIG;
 
+    public static final String CATEGORY_FARMING = "farming";
+
+    public static ForgeConfigSpec.ConfigValue<String> DEFAULT_VINE_CROP_ROPE;
+    public static ForgeConfigSpec.BooleanValue ENABLE_VINE_CROP_CLIMBING_TAGGED_ROPES;
+
     public static final String CATEGORY_WORLD = "world";
 
     public static ForgeConfigSpec.BooleanValue GENERATE_OLIVE_TREE;
@@ -41,6 +46,16 @@ public class Configuration {
 
         // common
         ForgeConfigSpec.Builder COMMON_BUILDER = new ForgeConfigSpec.Builder();
+
+        COMMON_BUILDER.comment("Farming").push(CATEGORY_FARMING);
+
+        DEFAULT_VINE_CROP_ROPE = COMMON_BUILDER.comment("Which rope should vine crops leave behind when mined by hand?")
+                .define("defaultVineCropRope", "farmersdelight:rope");
+        ENABLE_VINE_CROP_CLIMBING_TAGGED_ROPES = COMMON_BUILDER.comment("Should vine crops be able to climb any rope tagged as farmersdelight:ropes?",
+                        "Beware: this will convert these blocks into the block specified in defaultVineCropRope.")
+                .define("enableVineCropClimbingTaggedRopes", true);
+        COMMON_BUILDER.pop();
+
 
         COMMON_BUILDER.comment("World generation").push(CATEGORY_WORLD);
 
