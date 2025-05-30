@@ -52,9 +52,10 @@ public class VineCropBlock extends CropBlock {
     public InteractionResult use(BlockState state, Level level, BlockPos pos, Player player, InteractionHand hand, BlockHitResult hit) {
         int age = state.getValue(getAgeProperty());
         boolean isMature = age == getMaxAge();
+        boolean isRopelogged = state.getValue(VineCropBlock.ROPELOGGED);
         if (!isMature && player.getItemInHand(hand).is(Items.BONE_MEAL)) {
             return InteractionResult.PASS;
-        } else if (isMature) {
+        } else if (isMature && isRopelogged) {
             int quantity = 1 + level.random.nextInt(2);
             popResource(level, pos, new ItemStack(FCItems.VANILLA_POD.get(), quantity));
             level.playSound(null, pos, ModSounds.ITEM_TOMATO_PICK_FROM_BUSH.get(), SoundSource.BLOCKS, 1.0F, 0.8F + level.random.nextFloat() * 0.4F);
@@ -71,10 +72,11 @@ public class VineCropBlock extends CropBlock {
 
     @Override
     public void randomTick(BlockState state, ServerLevel level, BlockPos pos, RandomSource random) {
+        boolean isRopelogged = state.getValue(VineCropBlock.ROPELOGGED);
         if (!level.isAreaLoaded(pos, 1)) return;
         if (level.getRawBrightness(pos, 0) >= 9) {
             int age = this.getAge(state);
-            if (age < this.getMaxAge()) {
+            if (age < this.getMaxAge() && isRopelogged) {
                 float speed = getGrowthSpeed(this, level, pos);
                 if (net.minecraftforge.common.ForgeHooks.onCropsGrowPre(level, pos, state, random.nextInt((int) (25.0F / speed) + 1) == 0)) {
                     level.setBlock(pos, state.setValue(getAgeProperty(), age + 1), 2);
@@ -174,7 +176,6 @@ public class VineCropBlock extends CropBlock {
     public void playerDestroy(Level level, Player player, BlockPos pos, BlockState state, @Nullable BlockEntity blockEntity, ItemStack stack) {
         boolean isRopelogged = state.getValue(VineCropBlock.ROPELOGGED);
         super.playerDestroy(level, player, pos, state, blockEntity, stack);
-
         if (isRopelogged) {
             destroyAndPlaceRope(level, pos);
         }
@@ -185,14 +186,12 @@ public class VineCropBlock extends CropBlock {
         if (!state.canSurvive(level, currentPos)) {
             level.scheduleTick(currentPos, this, 1);
         }
-
         return state;
     }
 
     public static void destroyAndPlaceRope(Level level, BlockPos pos) {
         Block configuredRopeBlock = ForgeRegistries.BLOCKS.getValue(new ResourceLocation(Configuration.DEFAULT_VINE_CROP_ROPE.get()));
         Block finalRopeBlock = configuredRopeBlock != null ? configuredRopeBlock : ModBlocks.ROPE.get();
-
         level.setBlockAndUpdate(pos, finalRopeBlock.defaultBlockState());
     }
 

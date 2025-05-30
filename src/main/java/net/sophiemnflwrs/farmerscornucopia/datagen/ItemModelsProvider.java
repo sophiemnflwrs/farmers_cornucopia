@@ -46,7 +46,8 @@ public class ItemModelsProvider extends ItemModelProvider {
                 FCItems.GARLIC_CLOVE.get(),
                 FCItems.GINGER_SEEDS.get(),
                 FCItems.LEMON_SEEDS.get(),
-                FCItems.CASSAVA.get()
+                FCItems.CASSAVA.get(),
+                FCItems.VANILLA_POD.get()
 
         );
         takeAll(items, spriteBlockItems.toArray(new Item[0])).forEach(item -> withExistingParent(itemName(item), GENERATED).texture("layer0", resourceItem(itemName(item))));
